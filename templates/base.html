@@ -15,6 +15,10 @@
     
     <!-- including custom css -->
     <link rel="stylesheet" href="style.css">
+
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+
     <title> {% block title %} {% endblock title %} | Healer</title>
 </head>
 
